@@ -124,10 +124,35 @@ img {
     line-height: normal
 }
 .contacts a{
-        background-color: black;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 25px;
-        font-size: medium;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: medium;
+    margin-top: 2%;
+}
+.down_navigater{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.down_navigater-img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.down_navigater-text{
+    color: #828282;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
