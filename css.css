@@ -43,6 +43,11 @@ img {
     margin-left: 15%;
     margin-right: 15%;
 }
+    @media (max-width: 768px) {
+        .up_navigater {
+            margin-left: 5%;
+            margin-right: 5%;}
+        }
 .baner-text{
     display: flex;
     flex-direction: row;
@@ -92,12 +97,10 @@ img {
     background-color: #F6F6F6;
     padding-left: 15%;
     padding-right: 15%;
-    justify-content: space-between;
+    justify-content: center;
     height: 510px;
 }
-.about_me-img{
-    padding-top: 80px;
-}
+
 .about_me-text{
     text-align: center;
     padding-top: 13%;
@@ -127,16 +130,16 @@ img {
     justify-content: space-between;
     margin-top: 10%;
 }
-.photoshop span,
-.illustrator span,
-.effects span,
-.figma span {
+.html span,
+.css span,
+.nodejs span,
+.angular span {
     color: gold;
 }
-.photoshop span:hover,
-.illustrator span:hover,
-.effects span:hover,
-.figma span:hover{
+.html span:hover,
+.css span:hover,
+.nodejs span:hover,
+.angular span:hover{
     color: orange;
 }
 .portfolio{
