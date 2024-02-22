@@ -154,8 +154,16 @@ img {
 .skills_items {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	gap: 5%;
+}
+.skills_items_one {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.skills_items_two {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 .skills_items img {
 	width: 40%;
@@ -420,5 +428,9 @@ img {
 	}
 	.portfolio img {
 		width: 90%;
+	}
+	.skills_items {
+		display: flex;
+		flex-direction: column;
 	}
 }
