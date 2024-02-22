@@ -415,10 +415,31 @@ img {
 	.up_navigater {
 		margin: 3.5% 10% 0 10%;
 		padding-bottom: 3.5%;
+		font-size: 18px;
 	}
 	.up_navigater a {
 		display: none;
 	}
+	.baner {
+		margin: 0 10% 0 10%;
+	}
+	.baner-text {
+		display: flex;
+		flex-direction: column;
+	}
+	.baner-text h1 {
+		width: 100%;
+		height: 10%;
+		margin-top: 2%;
+		font-size: 36px;
+	}
+	.baner-text p {
+		width: 100%;
+		height: 10%;
+		margin-top: 2%;
+		font-size: 16px;
+	}
+
 	.switch {
 		display: none;
 	}
@@ -426,9 +447,33 @@ img {
 		display: block;
 		padding-left: 0;
 	}
+	.about_me {
+		padding: 0 10% 0 10%;
+	}
+	.about_me h1 {
+		font-size: 36px;
+	}
+	.about_me p {
+		font-size: 16px;
+	}
 	.portfolio img {
 		width: 90%;
 	}
+	.portfolio h1 {
+		font-size: 36px;
+	}
+	.portfolio p {
+		font-size: 16px;
+	}
+	.contacts {
+	}
+	.contacts h1 {
+		font-size: 29px;
+	}
+	.contacts p {
+		font-size: 16px;
+	}
+
 	.skills_items {
 		display: flex;
 		flex-direction: column;
