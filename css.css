@@ -61,11 +61,11 @@ img {
 	height: 10%;
 	flex-shrink: 0;
 	color: #070707;
-	font-size: 47.339px;
+	font-size: 47px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	margin-top: 39.69px;
+	margin-top: 40px;
 }
 .baner-text p {
 	width: 20%;
@@ -76,16 +76,15 @@ img {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	margin-top: 76.56px;
+	margin-top: 76px;
 }
 .baner {
 	display: flex;
 	flex-direction: column;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin: 0 15% 0 15%;
 }
 .baner img {
-	margin-top: 30px;
+	margin: 5% 0 5% 0;
 }
 .switch {
 	display: flex;
@@ -104,28 +103,24 @@ img {
 }
 
 .about_me {
-	margin-top: 5%;
 	display: flex;
-	background-color: #f6f6f6;
-	padding-left: 15%;
-	padding-right: 15%;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	background-color: #f6f6f6;
 	height: 510px;
+	margin: 0;
 }
 
-.about_me-text {
-	text-align: center;
-	padding-top: 13%;
-}
-.about_me-text h1 {
+.about_me h1 {
 	color: #070707;
-	font-size: 47.339px;
+	font-size: 47px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	padding-bottom: 1%;
 }
-.about_me-text p {
-	font-size: 18px;
+.about_me p {
 	line-height: 5;
 	color: #070707;
 	font-size: 18px;
@@ -133,9 +128,10 @@ img {
 	font-weight: 400;
 	line-height: normal;
 }
+
 .skills {
-	margin-top: 5%;
-	margin-bottom: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	padding-left: 15%;
 	padding-right: 15%;
 }
@@ -143,21 +139,22 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 10%;
+	margin: 2% 0 2% 0;
 }
 .skills_text h1 {
-	padding-bottom: 5%;
 	color: #070707;
-	font-size: 47.339px;
+	font-size: 47px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+}
+.skills_text p {
+	margin-top: 2%;
 }
 .skills_items {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 10%;
 	gap: 5%;
 }
 .skills_items img {
@@ -188,23 +185,21 @@ img {
 .typescript span:hover {
 	color: orange;
 }
+
 .portfolio {
-	margin-top: 5%;
-	padding-top: 2%;
 	background: #f6f6f6;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .portfolio h1 {
-	margin-top: 5%;
-	margin-bottom: 3%;
 	color: #070707;
 	text-align: center;
-	font-size: 34px;
+	font-size: 47px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	margin: 2% 0 2% 0;
 }
 .portfolio p {
 	margin-top: 3%;
@@ -419,6 +414,5 @@ img {
 	.navbar {
 		display: block;
 		padding-left: 0;
-		/* margin: 2% 50% 2% 50%; */
 	}
 }
