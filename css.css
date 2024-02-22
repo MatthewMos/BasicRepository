@@ -149,7 +149,7 @@ img {
 	line-height: normal;
 }
 .skills_text p {
-	margin-top: 2%;
+	margin: 2% 0 2% 0;
 }
 .skills_items {
 	display: flex;
@@ -398,6 +398,9 @@ img {
 		margin: 2.5% 13% 0 13%;
 		padding-bottom: 2.5%;
 	}
+	.portfolio img {
+		width: 87%;
+	}
 }
 
 @media (max-width: 768px) {
@@ -414,5 +417,8 @@ img {
 	.navbar {
 		display: block;
 		padding-left: 0;
+	}
+	.portfolio img {
+		width: 90%;
 	}
 }
