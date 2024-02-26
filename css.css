@@ -55,6 +55,7 @@ img {
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row;
+	width: 100%;
 }
 .header_links.active {
 	display: flex;
@@ -449,8 +450,14 @@ img {
 		padding-bottom: 3.5%;
 		font-size: 18px;
 	}
-	.up_navigater a {
+	/*.up_navigater a {
 		display: none;
+	}*/
+	.header_links {
+		display: none;
+	}
+	.header_links.active {
+		width: 30%;
 	}
 	.baner {
 		margin: 0 10% 0 10%;
